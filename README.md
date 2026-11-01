@@ -49,12 +49,16 @@ included in this repository without access to the original raw exports.
    python scripts/07_run_multimodal_models.py
    python scripts/08_make_descriptive_tables.py
    python scripts/09_run_sensitivity_and_personalization.py
+   python scripts/12_run_additional_robustness_analyses.py
    ```
 
 The scripts cover cohort construction, subjective baselines, objective-feature
 linkage, multimodal models, descriptive tables, and sensitivity and
 personalization analyses. Intermediate and final CSV outputs are regenerated
 in `data/processed_release/`; Markdown summaries are written to `reports/`.
+The final script adds explicitly post-hoc robustness analyses of GNSS-selection
+weighting, player-level heterogeneity, calibration, residual strata, and
+hierarchical player-week resampling without refitting the frozen outcome models.
 
 ---
 
