@@ -1,4 +1,4 @@
-# Incremental value of GNSS for readiness prediction varies between two elite football teams
+# The incremental value of GNSS for readiness prediction differs between two elite football teams
 
 Minimal reproducibility package for the accompanying manuscript.
 
