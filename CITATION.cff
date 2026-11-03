@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the archived release."
+type: software
+title: "Incremental value of GNSS for readiness prediction varies between two elite football teams"
+authors:
+  - family-names: Salaj
+    given-names: Šimon
+    orcid: "https://orcid.org/0009-0007-6825-1286"
+repository-code: "https://github.com/simonator420/athlete-monitoring-across-teams"
+version: "v1.1.0"
+date-released: "2026-11-03"
+license: MIT
+keywords:
+  - athlete monitoring
+  - football
+  - readiness
+  - GNSS
+  - external load
+  - cross-team validation
+  - personalization
+abstract: "Minimal reproducibility package for an analysis of the incremental value of GNSS-derived external load in next-day readiness prediction across two elite football teams."

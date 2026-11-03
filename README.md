@@ -1,5 +1,6 @@
-# Do Athlete Monitoring Across Teams?
-### Subjective Wellness, External Load, and Next-Day Readiness Across Teams
+# Incremental value of GNSS for readiness prediction varies between two elite football teams
+
+Minimal reproducibility package for the accompanying manuscript.
 
 ---
 
@@ -17,8 +18,17 @@ athlete-monitoring-across-teams/
 │   ├── 06_merge_objective_player_day_features.py
 │   ├── 07_run_multimodal_models.py
 │   ├── 08_make_descriptive_tables.py
-│   └── 09_run_sensitivity_and_personalization.py
+│   ├── 09_run_sensitivity_and_personalization.py
+│   └── 12_run_additional_robustness_analyses.py
+├── reports/
+│   ├── descriptive_tables.md
+│   ├── multimodal_model_results.md
+│   ├── sensitivity_personalization_results.md
+│   └── additional_robustness_analyses.md
 ├── src/soccermon/
+├── analysis_plan_v2.md
+├── CITATION.cff
+├── .zenodo.json
 ├── requirements.txt
 ├── README.md
 └── LICENSE
@@ -70,7 +80,8 @@ subjective-load features. `objective_session_features.csv` contains the
 session-level GPS, heart-rate, and signal-quality summaries used for the
 objective-feature linkage and multimodal analyses.
 
-The raw SoccerMon exports and the earlier extraction steps are not included.
+The raw SoccerMon exports, figures, manuscript files, and internal quality
+assurance files are not included.
 The included processed inputs are the analysis-ready files required by the
 reproduction pipeline.
 
@@ -78,7 +89,8 @@ reproduction pipeline.
 
 ## Citation
 
-> *Will be updated upon publication.*
+Please cite the archived Zenodo release. Citation metadata are provided in
+`CITATION.cff`.
 
 ---
 

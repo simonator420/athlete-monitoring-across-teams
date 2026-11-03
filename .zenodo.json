@@ -1,0 +1,30 @@
+{
+  "title": "Incremental value of GNSS for readiness prediction varies between two elite football teams",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Salaj, Šimon",
+      "orcid": "0009-0007-6825-1286"
+    }
+  ],
+  "description": "Minimal reproducibility package for an analysis of the incremental value of GNSS-derived external load in next-day readiness prediction across two elite football teams. The archive contains analysis-ready processed inputs, reproducible analysis code, the frozen analysis plan, and statistical result summaries. Figures, manuscript files, raw source exports, and internal quality-assurance files are intentionally excluded.",
+  "access_right": "open",
+  "license": "MIT",
+  "version": "v1.1.0",
+  "keywords": [
+    "athlete monitoring",
+    "football",
+    "readiness",
+    "GNSS",
+    "external load",
+    "cross-team validation",
+    "personalization"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/simonator420/athlete-monitoring-across-teams",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
